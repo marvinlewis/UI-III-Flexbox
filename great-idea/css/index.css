@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain) */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* GREAT IDEA PAGE 1 --- TOP OF PAGE */
 
 
 .topbar { 
@@ -140,6 +143,11 @@ h1 {
 	background-color: black;
 }
 
+
+/* GREAT IDEA ---- MIDDLE OF PAGE */
+
+
+
 .featabout {
 	display: block;
 	background-color: sandybrown;
@@ -209,6 +217,9 @@ h1 {
 	color: blueviolet;
 }
 
+
+/* GREAT IDEA ---- BOTTOM OF PAGE */
+
 .contact {
 	display: flex;
 	length: 100px;
@@ -224,5 +235,153 @@ h1 {
 .Copyright {
 	display:flex;
 	justify-content: center;
+
+}
+
+
+/* GREAT IDEA HOME PAGE ---- STOPS HERE !!! */
+
+
+
+
+/* SERVICES PAGE ----- STARTS HERE */
+
+
+/* SERVICES PAGE ---- TOP OF PAGE */ 
+
+
+.navbar {
+	display: flex; 
+	justify-content: space-evenly;
+	word-spacing: 130px;
+	color: grey;
+	margin-right: 140px;
+}
+
+.servicelogo {
+	position: relative;
+	bottom: 15px;
+	left: 5px;
+}
+
+
+.services-image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services {
+	line-height: 1.5;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	position: relative;
+	left: 150px; 
+}
+
+.servicetitle {
+	font-size: 200%;
+	margin-top: 30px; 
+}
+
+.servicetitlediv {
+	display: flex;
+	justify-content: center;
+}
+
+
+.big-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	line-height: 1.5;
+	margin-top: 10px; 
+} 
+
+span {
+	background-color: lightgray;
+	border: 3px solid lightgray;
+	display: flex;
+	justify-content: center;
+
+}
+
+span:hover {
+	background-color: lightsalmon;
+}
+
+
+
+.design {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+
+
+.UX {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+
+.Marketing {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+.Web {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+
+.ios {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+
+.Android {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+.some-facts {
+	border: 2px solid grey;
+	width: 40%;
+	line-height: 1.5;
+	position: relative;
+	right: 13px;
+}
+
+ul {
+	list-style-type: square;
+	position: relative;
+	left: 20px; 
+}
+
+.bottomimg{
+	border: 2px solid grey;
+	position: relative;
+	right
+}
+
+.bottompage {
+	display: flex;
+	justify-content: space-around;
 
 }
