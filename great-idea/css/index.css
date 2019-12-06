@@ -250,12 +250,12 @@ h1 {
 /* SERVICES PAGE ---- TOP OF PAGE */ 
 
 
-.navbar {
-	display: flex; 
+.navbar { display: flex; 
 	justify-content: space-evenly;
 	word-spacing: 130px;
 	color: grey;
 	margin-right: 140px;
+	
 }
 
 .servicelogo {
@@ -280,9 +280,17 @@ h1 {
 	left: 150px; 
 }
 
+.services:hover{
+	background-color: salmon;
+}
+
 .servicetitle {
 	font-size: 200%;
 	margin-top: 30px; 
+}
+
+.servicetitle:hover {
+	background-color: salmon;
 }
 
 .servicetitlediv {
@@ -313,12 +321,20 @@ span:hover {
 
 
 
+
+
 .design {
 	box-sizing: border-box;
 	width: 40%;
 	margin: 20px; 
 	background-color: lightblue;
 }
+
+.design:hover {
+	background-color: salmon;
+}
+
+
 
 
 
@@ -329,6 +345,13 @@ span:hover {
 	background-color: lightblue;
 }
 
+.UX:hover {
+	background-color: salmon;
+}
+
+
+
+
 
 .Marketing {
 	box-sizing: border-box;
@@ -336,6 +359,13 @@ span:hover {
 	margin: 20px; 
 	background-color: lightblue;
 }
+.Marketing:hover{
+	background-color: salmon;
+}
+
+
+
+
 
 .Web {
 	box-sizing: border-box;
@@ -343,6 +373,13 @@ span:hover {
 	margin: 20px; 
 	background-color: lightblue;
 }
+.Web:hover {
+	background-color: salmon;
+}
+
+
+
+
 
 
 .ios {
@@ -351,6 +388,10 @@ span:hover {
 	margin: 20px; 
 	background-color: lightblue;
 }
+.ios:hover {
+	background-color: salmon;
+}
+
 
 
 .Android {
@@ -359,6 +400,11 @@ span:hover {
 	margin: 20px; 
 	background-color: lightblue;
 }
+.Android:hover {
+	background-color: salmon;
+}
+
+
 
 .some-facts {
 	border: 2px solid grey;
@@ -377,11 +423,16 @@ ul {
 .bottomimg{
 	border: 2px solid grey;
 	position: relative;
-	right
+	right: 50px; 
 }
 
 .bottompage {
 	display: flex;
 	justify-content: space-around;
 
+}
+
+.copy {
+	display: flex;
+	justify-content: center;
 }
