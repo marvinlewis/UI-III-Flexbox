@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain) */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,3 +64,375 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* GREAT IDEA PAGE 1 --- TOP OF PAGE */
+
+
+.topbar { 
+	display: flex; 
+	justify-content: space-evenly;
+	word-spacing: 130px;
+	color: grey;
+	margin-right: 140px;
+}
+
+.topbar:hover {
+	color: rgb(96, 165, 244);
+}
+
+.topbar:visited:{
+	color: red; 
+}
+
+
+
+.pic1 {
+	display: flex; 
+	flex-direction: row-reverse;
+}
+
+.pic-container{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 200px;
+	right: 75px;
+}
+
+.logo {
+	margin-left: 1100px;
+	display: flex;
+	box-sizing: border-box;
+	}
+
+.logo-container{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+h1 {
+	padding-right:1%;
+	display: block;
+	text-align: center; 
+	margin: 0;
+	font-size: 80px;
+	box-sizing: border-box;
+	position: relative; 
+	top: 100px; 
+	left: 200px;
+	width: 500px;
+	length: 500px;
+}
+
+.start {
+	padding-right: 0;
+	display: block;
+	position: relative; 
+	box-sizing: border-box;
+	text-align: center;
+	border: 2px solid grey;
+	width: 100px;
+	length: 100px;
+	margin-left: 395px;
+	top: 100px;
+}
+
+.start:hover {
+	color: yellow;
+	background-color: black;
+}
+
+
+/* GREAT IDEA ---- MIDDLE OF PAGE */
+
+
+
+.featabout {
+	display: block;
+	background-color: sandybrown;
+	box-sizing: border-box;
+	position: relative;
+	bottom: 60px;
+}
+
+.featabout:hover {
+	color: blueviolet;
+}
+
+.outer {
+	display: inline-block;
+	width: 45%;
+}
+
+.inner {
+	display: inline-block;
+	width: 45%;
+	margin-left: 3%;
+}
+
+.middle-img {
+	margin: 0 auto;
+	position: relative;
+	bottom: 60px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.service {
+	display: inline-block;
+	width: 33%;
+}
+
+.service:hover{
+	background-color: tomato;
+}
+
+.product {
+	display: inline-block;
+	width: 33%;
+}
+
+.product:hover {
+	color: blueviolet;
+}
+
+.vision {
+	display: inline-block;
+	width: 33%; 
+}
+
+.vison:hover {
+	color: blueviolet;
+}
+
+.lowerpage{
+	position: relative;
+	bottom: 60px;
+	background-color: sandybrown;
+}
+
+.lowerpage:hover {
+	color: blueviolet;
+}
+
+
+/* GREAT IDEA ---- BOTTOM OF PAGE */
+
+.contact {
+	display: flex;
+	length: 100px;
+	width: 100px;
+	flex-direction: column;
+	line-height: 1.5;
+	font-style: italic;
+}
+
+.contact:hover {
+	color: blueviolet;
+}
+.Copyright {
+	display:flex;
+	justify-content: center;
+
+}
+
+
+/* GREAT IDEA HOME PAGE ---- STOPS HERE !!! */
+
+
+
+
+/* SERVICES PAGE ----- STARTS HERE */
+
+
+/* SERVICES PAGE ---- TOP OF PAGE */ 
+
+
+.navbar { display: flex; 
+	justify-content: space-evenly;
+	word-spacing: 130px;
+	color: grey;
+	margin-right: 140px;
+	
+}
+
+.servicelogo {
+	position: relative;
+	bottom: 15px;
+	left: 5px;
+}
+
+
+.services-image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services {
+	line-height: 1.5;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	position: relative;
+	left: 150px; 
+}
+
+.services:hover{
+	background-color: salmon;
+}
+
+.servicetitle {
+	font-size: 200%;
+	margin-top: 30px; 
+}
+
+.servicetitle:hover {
+	background-color: salmon;
+}
+
+.servicetitlediv {
+	display: flex;
+	justify-content: center;
+}
+
+
+.big-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	line-height: 1.5;
+	margin-top: 10px; 
+} 
+
+span {
+	background-color: lightgray;
+	border: 3px solid lightgray;
+	display: flex;
+	justify-content: center;
+
+}
+
+span:hover {
+	background-color: lightsalmon;
+}
+
+
+
+
+
+.design {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+.design:hover {
+	background-color: salmon;
+}
+
+
+
+
+
+.UX {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+
+.UX:hover {
+	background-color: salmon;
+}
+
+
+
+
+
+.Marketing {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+.Marketing:hover{
+	background-color: salmon;
+}
+
+
+
+
+
+.Web {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+.Web:hover {
+	background-color: salmon;
+}
+
+
+
+
+
+
+.ios {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+.ios:hover {
+	background-color: salmon;
+}
+
+
+
+.Android {
+	box-sizing: border-box;
+	width: 40%;
+	margin: 20px; 
+	background-color: lightblue;
+}
+.Android:hover {
+	background-color: salmon;
+}
+
+
+
+.some-facts {
+	border: 2px solid grey;
+	width: 40%;
+	line-height: 1.5;
+	position: relative;
+	right: 13px;
+}
+
+ul {
+	list-style-type: square;
+	position: relative;
+	left: 20px; 
+}
+
+.bottomimg{
+	border: 2px solid grey;
+	position: relative;
+	right: 50px; 
+}
+
+.bottompage {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.copy {
+	display: flex;
+	justify-content: center;
+}
